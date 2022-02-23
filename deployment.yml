@@ -1,0 +1,33 @@
+api-version: 2019-12-01
+location: East US
+name: cropfinder
+properties:
+  containers:
+  - name: streamlitapp
+    properties:
+      image: croppredreg.azurecr.io/croppredictor:v1
+      ports:
+      - port: 80
+        protocol: TCP
+      - port: 443
+        protocol: TCP
+      resources:
+        requests:
+          cpu: 2.0
+          memoryInGB: 1.5
+  imageRegistryCredentials:
+  - server: croppredreg.azurecr.io
+    username: croppredreg
+    password: 'Mn=4ogp/C0PCeQGKUuIAMlYs7mHXBXed'
+  restartPolicy: Never
+  ipAddress:
+    ports:
+    - port: 443
+      protocol: TCP
+    - port: 80
+      protocol: TCP
+    type: Public
+    dnsNameLabel: cropprediction
+  osType: Linux
+tags: null
+type: Microsoft.ContainerInstance/containerGroups
