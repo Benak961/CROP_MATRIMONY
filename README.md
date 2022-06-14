@@ -6,9 +6,4 @@ Deployed containersied application using azure.
 
 
 
-![screencapture-cropprediction-eastus-azurecontainer-io-2022-03-04-19_32_42](https://user-images.githubusercontent.com/91481367/160156585-55d61c48-6ecd-4fd0-b11e-1a6c8c8f4d52.png)
-
-![screencapture-cropprediction-eastus-azurecontainer-io-2022-03-04-19_32_13](https://user-images.githubusercontent.com/91481367/160156900-40c6c59b-4777-4bed-a772-40fc9983524c.png)
-
-![screencapture-cropprediction-eastus-azurecontainer-io-2022-03-25-21_31_27](https://user-images.githubusercontent.com/91481367/160157247-92bbf382-8602-49c3-a291-1f71ff920988.png)
 
